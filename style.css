@@ -170,8 +170,23 @@ nav {
   .service-container {
     flex-direction: column;
   }
+
+  .service-tile{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+  .service-card-right{
+    padding: 0;
+
+    flex-direction: column;
+  }
   .service-card-left {
+    padding: 0;
+
     border: none;
+    flex-direction: column;
   }
 }
 
@@ -198,17 +213,19 @@ nav {
 }
 .address-tile {
   /* padding: 20px; */
+  text-align: center;
 }
 .address-tile h3 {
   padding: 20px;
-  text-align: center;
 }
 @media screen and (max-width: 1024px) {
   .contact-tile {
+    font-size: 13px;
     padding: 5px;
     flex-direction: column;
   }
   .address-tile {
+    /* margin: auto; */
     padding: 10px;
   }
 }
