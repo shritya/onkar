@@ -166,7 +166,7 @@ nav {
   column-gap: 20px;
   display: flex;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .service-container {
     flex-direction: column;
   }
@@ -203,7 +203,7 @@ nav {
   padding: 20px;
   text-align: center;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1024px) {
   .contact-tile {
     padding: 5px;
     flex-direction: column;
